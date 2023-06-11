@@ -1,0 +1,59 @@
+h1 {
+  text-align: center;
+}
+
+.container-table {
+  overflow-x: auto;
+}
+
+.table {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+ 
+.table tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: semi-bold;
+    border-top: 2px solid black;
+}
+ 
+.table th, td {
+    padding: 8px 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+}
+ 
+.table tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button {
+  margin: 0 3px;
+  background-color: #35a9db;
+  color: white;
+  padding: 4px 8px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5%;
+  font-size: 12px;
+}
+
+button:hover {
+  color: black;
+}
+
+@media screen and (max-width: 728px) {
+	button {
+  margin-top: 4px;
+}
+}

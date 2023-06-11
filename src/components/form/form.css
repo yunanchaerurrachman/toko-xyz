@@ -1,0 +1,84 @@
+.halaman-utama {
+	width: 100%;
+	padding: 0 3rem;
+}
+
+.tombol-form {
+	margin-bottom: 2rem;
+	padding: 8px 20px;
+	background-color: #35A9DB;
+	border: 2px solid black;
+	color: white;
+	font-size: 15px;
+	border-radius: 5%;
+	cursor: pointer;
+}
+
+.tombol-form:hover {
+	color: black;
+}
+
+.form-container {
+	width: 100%;
+	min-height: 100vh;
+	position: fixed;
+}
+
+.form{
+	width: 30%;
+	background: #35A9DB;
+	padding: 3rem 2rem;
+  box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 5%;
+}
+
+label {
+	font-family: sans-serif;
+	font-weight: semi-bold;
+	margin-bottom: .5rem;
+	display: block;
+	color: white;
+	font-size: 15px;
+}
+
+.form-input{
+	width: 100%;
+	padding: .5rem;
+	margin-bottom: 1rem;
+	border: 2px solid black;
+	font-size: 15px;
+}
+
+.btn-simpan, .btn-keluar {
+    padding: .5rem 1rem;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 840px) {
+	.form{
+		width: 50%;
+	}
+	.halaman-utama {
+		padding: 0 1rem;
+	}
+
+}
+
+@media screen and (max-width: 428px) {
+	.halaman-utama {
+		padding: 0 1rem;
+	}
+
+	.form-container {
+		min-height: max-content;
+		display: flex;
+		justify-content: center;
+		left: 0;
+	}
+
+	.form{
+		width: 85%;
+	}
+
+}
